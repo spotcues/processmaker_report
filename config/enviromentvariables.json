@@ -1,0 +1,17 @@
+{
+  "name": "Environment variables",
+  "description": "Definition of system constants",
+  "constants": {
+    "userguest": {
+      "uid": "00000000000000000000000000000002",
+      "firstname": "Guest",
+      "lastname": "Guest",
+      "username": "guest"
+    }
+  },
+  "validation": {
+    "pmVariable": {
+      "regEx": "/^[a-zA-Z\\_]{1}\\w+$/"
+    }
+  }
+}
